@@ -15,7 +15,7 @@ const changesetsVersion = packageJson.version;
 const currentYear = new Date().getFullYear();
 const netlifyLink = `<a href="https://www.netlify.com" target="_blank">Netlify</a>`;
 const commitLink = commitRef
-  ? `<a href="https://github.com/changesets/changesets/commit/${commitRef}" target="_blank">${commitRef.slice(0, 7)}</a>`
+  ? `<a href="https://github.com/Unity-Billal-mesloub/changesets/commit/${commitRef}" target="_blank">${commitRef.slice(0, 7)}</a>`
   : "dev";
 
 const siteUrl = "https://changesets.dev";
@@ -100,11 +100,11 @@ export default defineConfig({
       alt: "Changesets logo",
     },
     editLink: {
-      pattern: "https://github.com/changesets/changesets/edit/main/site/:path",
+      pattern: "https://github.com/Unity-Billal-mesloub/changesets/edit/main/site/:path",
     },
     socialLinks: [
       { icon: "discord", link: "https://chat.changesets.dev" },
-      { icon: "github", link: "https://github.com/changesets/changesets" },
+      { icon: "github", link: "https://github.com/Unity-Billal-mesloub/changesets" },
       { icon: "npm", link: "https://npmx.dev/package/@changesets/cli" },
     ],
     search: {
@@ -151,11 +151,11 @@ export default defineConfig({
         items: [
           {
             text: `v${changesetsVersion}`,
-            link: `https://github.com/changesets/changesets/releases/tag/%40changesets%2Fcli%40${changesetsVersion}`,
+            link: `https://github.com/Unity-Billal-mesloub/changesets/releases/tag/%40changesets%2Fcli%40${changesetsVersion}`,
           },
           {
             text: "Changelog",
-            link: "https://github.com/changesets/changesets/blob/main/packages/cli/CHANGELOG.md",
+            link: "https://github.com/Unity-Billal-mesloub/changesets/blob/main/packages/cli/CHANGELOG.md",
           },
         ],
       },
